@@ -6,6 +6,7 @@ plugins {
 }
 
 group = "net.noncore.reportify"
+
 version = "1.0.0"
 
 repositories {
@@ -38,12 +39,12 @@ compose.desktop {
                 bundleID = "net.noncore.reportify"
                 appCategory = "public.app-category.productivity"
             }
-            linux {
-                appCategory = "Utility"
-            }
+            linux { appCategory = "Utility" }
         }
     }
 }
+
+kotlin { jvmToolchain(17) }
 
 kotlin {
     jvmToolchain(17)
