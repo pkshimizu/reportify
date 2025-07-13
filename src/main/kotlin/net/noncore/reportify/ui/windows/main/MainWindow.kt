@@ -1,4 +1,4 @@
-package net.noncore.reportify.ui.composables.main
+package net.noncore.reportify.ui.windows.main
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.window.ApplicationScope
