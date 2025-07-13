@@ -3,6 +3,7 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 plugins {
     kotlin("jvm") version "1.9.10"
     id("org.jetbrains.compose") version "1.5.10"
+    id("org.jlleitschuh.gradle.ktlint") version "12.1.0"
 }
 
 group = "net.noncore.reportify"
