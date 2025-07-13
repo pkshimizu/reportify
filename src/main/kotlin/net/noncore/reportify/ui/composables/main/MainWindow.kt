@@ -1,4 +1,4 @@
-package net.noncore.reportify.ui.composables.app
+package net.noncore.reportify.ui.composables.main
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.window.ApplicationScope
@@ -6,7 +6,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.rememberWindowState
 
 @Composable
-fun AppWindow(application: ApplicationScope) {
+fun MainWindow(application: ApplicationScope) {
     Window(
         onCloseRequest = { application.exitApplication() },
         title = "Reportify",

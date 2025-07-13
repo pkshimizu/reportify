@@ -1,9 +1,9 @@
 package net.noncore.reportify
 
 import androidx.compose.ui.window.application
-import net.noncore.reportify.ui.composables.app.AppWindow
+import net.noncore.reportify.ui.composables.main.MainWindow
 
 fun main() =
     application {
-        AppWindow(this)
+        MainWindow(this)
     }
